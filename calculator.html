@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //WAP to perform some arithmatic peration (Simple Calculator)
+
+        num1 = parseInt(prompt("Enter the First number"));
+        num2 = parseInt(prompt("Enter the Second number"));
+
+        op = parseInt(prompt("Enter the option (1) for addition (2) for Subsraction  (3) for Multiplication 4 for Division"));
+        switch (op) {
+            case 1:
+                alert("Addition Of Two number is: "+num1 + num2);
+                break;
+
+                case 2:
+                alert("Difference of two numbers is: "+num1 - num2);
+                break;
+
+                case 3:
+                alert("Multiplication of two numbers is: "+num1 * num2);
+                break;
+
+                case 4:
+                alert("Division of two numbers is: "+num1 / num2);
+                break;
+        
+            default:
+                alert("Invalied Input");
+                break;
+        }
+    </script>
+</body>
+</html>
